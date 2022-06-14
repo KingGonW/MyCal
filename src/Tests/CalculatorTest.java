@@ -26,4 +26,9 @@ public class CalculatorTest {
         var cal = new Calculator();
         assertEquals(4, cal.dividion(8,2));
     }
+    @Test
+    void SixMultiByTwoShouldEqualThree(){
+        var cal = new Calculator();
+        assertEquals(16, cal.multi(8,2));
+    }
 }
