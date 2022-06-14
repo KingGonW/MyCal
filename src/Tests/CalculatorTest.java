@@ -24,6 +24,6 @@ public class CalculatorTest {
     @Test
     void SixDivideByTwoShouldEqualThree(){
         var cal = new Calculator();
-        assertEquals(3, cal.dividion(6,2));
+        assertEquals(4, cal.dividion(8,2));
     }
 }
